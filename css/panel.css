@@ -1,0 +1,114 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	
+}
+.sidenav {
+    height: 100% ;
+    width: 200px ;
+    background-color: #001627; 
+    padding: 20px;
+    
+    border-right: 3px solid #2ec4b6;
+    float: left;
+    position: relative;
+    
+    
+  }
+  
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #228a7f;
+    display: block;
+    margin-top: 60px;
+  }
+  
+ 
+  .sidenav a:hover {
+    color: #2ec4b6;
+    text-decoration: none;
+  }
+  
+  
+  .mainp {
+    float: left;
+    
+    
+    top: 0;
+    position: relative;
+    height: auto;
+    
+    width: 65%;
+    margin-left: 200px; 
+    padding: 0px 10px;
+    
+   
+    
+    
+  }
+  
+  
+ 
+  * {box-sizing: border-box;}
+
+
+.input-container {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.content{
+   display: flex;
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+h5{
+  margin-top: 40px;
+  color: #228a7f;
+  display: block;
+}
+.pp{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
